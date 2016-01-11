@@ -31,6 +31,7 @@ public class ArrayDemo01 {
         System.out.println(Arrays.toString(arr4));// [ ,  ,  ,  ,  ]
         System.out.println(Arrays.toString(arr5));// [false, false, false, false, false]
         System.out.println(Arrays.toString(arr6));// [null, null, null, null, null]
+        System.out.println("------------------------------");
 
         // 可以通过length属性来访问数组的元素总数
         System.out.println(arr1.length);// 5
@@ -39,6 +40,7 @@ public class ArrayDemo01 {
         System.out.println(arr4.length);// 5
         System.out.println(arr5.length);// 5
         System.out.println(arr6.length);// 5
+        System.out.println("------------------------------");
 
         // 每个数组元素都有一个索引值，通过索引值可以访问或修改数组中特定元素的值
         // 数组中的第一个元素的索引值是0，最后一个元素的索引值是元素的总数减1
@@ -61,6 +63,7 @@ public class ArrayDemo01 {
         System.out.println(Arrays.toString(arr4));// [ ,  ,  , Z,  ]
         System.out.println(Arrays.toString(arr5));// [false, false, false, false, true]
         System.out.println(Arrays.toString(arr6));// [null, null, abc, null, null]
+        System.out.println("------------------------------");
 
         // 可以在数组的声明时为其初始化所有元素的值
         // 声明一个int类型的数组，为其初始化了5个元素值，分别是1,2,3,4,5
