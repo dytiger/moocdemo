@@ -14,10 +14,12 @@ public class ComparisonOperationDemo01 {
         System.out.println(a==b);// false
         System.out.println((a+b)==c);// true
         System.out.println("------------------------------");
+
         // 不等判断
         System.out.println(a!=b);// true
         System.out.println((a+b)!=c);// false
         System.out.println("------------------------------");
+
         // 大于
         System.out.println(a>b);// true
         System.out.println(b>a);// false
