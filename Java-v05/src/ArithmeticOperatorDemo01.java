@@ -25,6 +25,8 @@ public class ArithmeticOperatorDemo01 {
         System.out.println("------------------------------");
 
         // 取余运算结果的符号由左操作数一致
+        // 取余操作通常用于判断某个数字是否能被另一个数字整除，
+        // 如果结果是0表示能被整除，否则表示不能被整除
         System.out.println(ai % ci);// 10%6=4
         System.out.println(bi % ci);// -10%6=-4
         System.out.println(ai % di);// 10%-6=4
