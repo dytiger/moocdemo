@@ -3,7 +3,7 @@
  * for循环经常用在循环次数可知的情况下，
  * 此情况下，相比while和do-while，for在语法上更加紧凑，易用
  * 反之，循环次数不定，或求解就的就是循环次数，则使用while或do-while是更好的选择
- *
+ * <p>
  * 计算1加到100的和
  */
 public class ForDemo01 {
@@ -17,6 +17,14 @@ public class ForDemo01 {
         // 第四步：再次进入第二步骤
         for (int i = 1; i <= 100; i++) {
             sum = sum + i;
+        }
+        System.out.println(sum);
+
+        // 在for循环的第一部分和第三部分可以定义多个变量的声明和变化，多条语句用逗号分隔
+        // 以下循环可以减少一半循环次数
+        sum = 0;
+        for (int i = 1, j = 100; i < j; i++, j--) {
+            sum = sum + i + j;
         }
         System.out.println(sum);
     }
