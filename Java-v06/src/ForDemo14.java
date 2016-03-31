@@ -16,5 +16,14 @@ public class ForDemo14 {
                 }
             }
         }
+        System.out.println("-----------------");
+        for(int i = 100;i<=999;i++){
+            int x = i%10;// 个位
+            int y = i%100/10;// 十位
+            int z = i/100;// 百位
+            if((x*x*x+y*y*y+z*z*z)==i){
+                System.out.println(i);
+            }
+        }
     }
 }
