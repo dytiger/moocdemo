@@ -7,7 +7,7 @@ public class ArrayDemo03 {
         String[] months = {"January", "February", "March", "April", "May",
                 "June", "July", "August", "September", "October", "November", "December"};
         // 输入的数字月份
-        int choice = 12;
+        int choice = 8;
 
         // 校验输入的月份是否合法
         if (choice >= 1 && choice <= months.length) {
