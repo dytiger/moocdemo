@@ -4,9 +4,10 @@
 public class ArrayDemo03 {
     public static void main(String[] args) {
         // 月份英文名称数组
-        String[] months = {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
+        String[] months = {"January", "February", "March", "April", "May",
+                "June", "July", "August", "September", "October", "November", "December"};
         // 输入的数字月份
-        int choice = 1;
+        int choice = 12;
 
         // 校验输入的月份是否合法
         if (choice >= 1 && choice <= months.length) {
